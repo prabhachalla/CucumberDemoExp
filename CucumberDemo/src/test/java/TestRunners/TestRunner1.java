@@ -12,8 +12,13 @@ import io.cucumber.junit.CucumberOptions;
 	
 		 plugin = {"json:target/cucumber/report.json", "html:target/cucumber/report.html" ,
 			
-		"junit:target/cucumber/report.xml"}
+		           "junit:target/cucumber/report.xml",
+		            "pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+		            "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+		 
+		 tags = "@smart"
 		)
+
 
 public class TestRunner1 {
 

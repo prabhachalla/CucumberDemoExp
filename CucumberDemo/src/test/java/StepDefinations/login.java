@@ -1,5 +1,8 @@
 package StepDefinations;
 
+import static org.junit.Assert.assertTrue;
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,12 +25,12 @@ public class login {
 		
 		driver=new ChromeDriver();
 	}
-//	@After
-//	public void tearDown() {
-//		if(driver!=null) {
-//			driver.quit();
-//		}
-//	}
+	@After
+	public void tearDown() {
+		if(driver!=null) {
+			driver.quit();
+		}
+	}
 	
 	
 	
@@ -68,6 +71,38 @@ public class login {
 //		signout.click();
 		loginpage.clickLogoutButton();
 	}
+	
+//	@Given("i have open browsers")
+//	public void i_have_open_browsers() {
+//	    
+//	}
+
+	@When("^I enter Username as \"(.*)\" and Password as \"(.*)\"$")
+	public void i_have_entered_a_invalid_username_and_password(String username , String password) {
+		driver.get("https://web-staging.diathrive.com/");
+	    loginpage =new Loginpage(driver);
+	    driver.manage().window().maximize();
+	   loginpage.enterEmail(username);
+	   loginpage.enterPassword(password);
+	}
+
+	@When("I click on the login buttons")
+	public void i_click_on_the_button() throws InterruptedException  {
+	    loginpage.clickLoginButton();
+	}
+	@When("I should see {string} message")
+	public void i_should_see_message(String expectedMessage) {
+		WebElement  messages=driver.findElement(By.xpath("//div[@class='css-146c3p1 r-1n4zqn1 r-vtw7wd r-1b43r93 r-10yl4k r-knv0ih']"));
+		
+		String actualMessage = messages.getText();
+		 assertTrue("Expected message: " + expectedMessage + ", but found: " + actualMessage,
+	                actualMessage.contains(expectedMessage));
+		
+
+		
+		 
+	}
+
 
 	
 }

@@ -19,7 +19,7 @@ public class Loginpage {
     private By  closebutton=By.xpath("(//div[@data-testid='Button-Text-Title'])[3]");
     private By logoutLinkLocator = By.xpath("//div[@data-testid='SidePannel-div-SignOut']");
     private By signout=By.xpath("//div[@class='css-175oi2r r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1867qdf r-18u37iz r-1awozwy r-1777fci']");
-	
+	//private By message=By.xpath("//div[@class='css-146c3p1 r-1n4zqn1 r-vtw7wd r-1b43r93 r-10yl4k r-knv0ih']");
 
     // Constructor
     public Loginpage(WebDriver driver) {
@@ -61,6 +61,11 @@ public class Loginpage {
         signout1.click();
         
     }
+    
+//    public String Messagetext() {
+//    	
+//    	return driver.findElement(message).getText();
+//    }
 
 }
 

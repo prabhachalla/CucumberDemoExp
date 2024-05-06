@@ -1,0 +1,84 @@
+22:35:02.046 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+22:35:02.192 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.4, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=BKpdqUuqyGn6UGjhJxuf, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=chprabhakar_GLiXzk, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=java:eclipse:v1.0.8]
+22:36:06.365 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:36:06.365 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:36:06.365 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/CucumberDemo
+22:36:06.373 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:36:06.374 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:36:06.375 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/CucumberDemo
+22:36:08.243 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:36:08.244 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:36:08.246 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/CucumberDemo
+22:36:08.248 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:36:08.249 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:36:08.252 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/CucumberDemo
+22:36:24.373 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:36:24.373 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:36:24.376 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/CucumberDemo
+22:36:24.378 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:36:24.378 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:36:24.381 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/CucumberDemo
+22:36:25.411 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:36:25.412 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:36:25.415 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/CucumberDemo
+22:36:25.416 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:36:25.417 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:36:25.419 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/CucumberDemo
+22:36:26.266 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:36:26.268 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:36:26.271 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/CucumberDemo
+22:36:26.272 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:36:26.272 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:36:26.274 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/CucumberDemo
+22:37:12.285 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+22:37:12.588 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=BKpdqUuqyGn6UGjhJxuf, groupId=com.browserstack, BROWSERSTACK_APP=bs://sample.app, BROWSERSTACK_FRAMEWORK=java, version=1.0, PROJECT_NAME=BrowserStack Sample, archetypeVersion=1.4, archetypeGroupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=chprabhakar_GLiXzk, BUILD_NAME=browserstack build, BROWSERSTACK_SOURCE=java:appium-eclipse:v1.0.8]
+22:37:12.599 [Worker-13: Launching mavenrun-711544b6-abf1-48fb-aaa0-ab76f8760df3] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:15:20.299 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:15:20.306 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:15:20.308 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/CucumberDemo
+23:15:20.309 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:15:20.309 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:15:20.312 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/CucumberDemo
+23:15:30.448 [Worker-36: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:15:30.452 [Worker-36: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:15:30.455 [Worker-36: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - Adding the javaagent argLine with path - C:\Users\dell\.m2\repository\com\browserstack\browserstack-java-sdk\1.13.22\browserstack-java-sdk-1.13.22.jar
+23:15:30.456 [Worker-36: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - Setting javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs - C:\Users\dell\.m2\repository\com\browserstack\browserstack-java-sdk\1.13.22\browserstack-java-sdk-1.13.22.jar
+23:15:30.465 [Worker-36: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.8}
+23:15:30.503 [Worker-36: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:24:32.169 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:24:32.173 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+23:24:32.176 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/CucumberDemo
+23:24:32.177 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:24:32.177 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+23:24:32.179 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/CucumberDemo
+23:24:36.438 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:24:36.440 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+23:24:36.444 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/CucumberDemo
+23:24:36.445 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:24:36.446 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+23:24:36.450 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/CucumberDemo
+23:24:48.236 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:24:48.237 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+23:24:48.239 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/CucumberDemo
+23:24:48.240 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:24:48.240 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+23:24:48.242 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/CucumberDemo
+23:24:52.705 [Worker-29: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is C:\Users\dell\.m2\repository\com\browserstack\browserstack-java-sdk\1.13.22\browserstack-java-sdk-1.13.22.jar
+23:24:52.717 [Worker-29: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+23:24:52.720 [Worker-29: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - Adding the javaagent argLine with path - C:\Users\dell\.m2\repository\com\browserstack\browserstack-java-sdk\1.13.22\browserstack-java-sdk-1.13.22.jar
+23:24:52.720 [Worker-29: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - Setting javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs - C:\Users\dell\.m2\repository\com\browserstack\browserstack-java-sdk\1.13.22\browserstack-java-sdk-1.13.22.jar
+23:24:52.721 [Worker-29: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.8}
+23:24:52.753 [Worker-29: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:26:09.095 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:26:09.096 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+23:26:09.098 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/CucumberDemo
+23:26:09.098 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:26:09.099 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+23:26:09.101 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/CucumberDemo
+23:26:17.481 [Worker-29: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is C:\Users\dell\.m2\repository\com\browserstack\browserstack-java-sdk\1.13.22\browserstack-java-sdk-1.13.22.jar
+23:26:17.483 [Worker-29: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_JAVAAGENT_ARGLINE]
+23:26:17.485 [Worker-29: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - Adding the javaagent argLine with path - C:\Users\dell\.m2\repository\com\browserstack\browserstack-java-sdk\1.13.22\browserstack-java-sdk-1.13.22.jar
+23:26:17.485 [Worker-29: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - Setting javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs - C:\Users\dell\.m2\repository\com\browserstack\browserstack-java-sdk\1.13.22\browserstack-java-sdk-1.13.22.jar
+23:26:17.486 [Worker-29: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.8}
+23:26:17.507 [Worker-29: Launching TestRunner1] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:35:41.699 [Framework stop - Equinox Container: 233f4c07-d841-4d04-96e9-31a7871a2ffb] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...
